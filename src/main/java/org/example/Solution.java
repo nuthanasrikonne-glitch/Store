@@ -40,7 +40,7 @@ public class Solution {
                      int logintime = activesession.get(user);
                      if(time-logintime<=MAX_TIME)
                      {
-                         valid++;
+                         valid--;
                      }
 
 
